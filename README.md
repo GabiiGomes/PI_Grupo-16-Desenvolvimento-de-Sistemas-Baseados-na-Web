@@ -36,4 +36,4 @@
 ### Integrantes 
 - [Arthur Bernardes Souza Silva]()
 - [Maria Gabriela Pereira Gomes](https://github.com/GabiiGomes)
-- [Renan Pereira Santos](https://github.com/renanps011)
+- [Renan Pereira Santos]()
