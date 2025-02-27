@@ -1,4 +1,6 @@
 # PesoIdeal 
+### Grupo 16
+### Professor: Gustavo Calixto 
 
 ## Visão Geral 
 - O PesoIdeal é um aplicativo projetado para ajudar os usuários a controlar e reduzir o índice de obesidade. 
