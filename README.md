@@ -19,12 +19,17 @@
 - Garantir uma experiência inclusiva e acessível para todos os públicos, independentemente de sua faixa etária, nível de escolaridade ou habilidade com tecnologias.
 - Ajudar os usuários a monitorar o seu progresso por meio do cálculo e acompanhamento regular do IMC.
 
-## Instruções para Execução
+## Tecnologias utilizadas para o desenvolvimento
+
+### Frontend
+-
+
+### Backend
 - 
 
 
-
-
+## Instruções para Execução
+- 
 
 
 
