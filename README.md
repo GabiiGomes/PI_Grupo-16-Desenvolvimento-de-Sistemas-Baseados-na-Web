@@ -20,17 +20,18 @@
 - Ajudar os usuários a monitorar o seu progresso por meio do cálculo e acompanhamento regular do IMC.
 
 ## Tecnologias utilizadas para o desenvolvimento
-
-### Frontend
--
-
-### Backend
-- 
-
-### Banco de Dados
--
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Python
+- Flask
+- Flask-CORS
+- MongoDB
+  
 
 ## Instruções para Execução
+- 
 - 
 
 
