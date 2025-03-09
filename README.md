@@ -28,7 +28,7 @@
 - Flask
 - Flask-CORS
 - MongoDB
-  
+    
 
 ## Instruções para Execução
 - 
