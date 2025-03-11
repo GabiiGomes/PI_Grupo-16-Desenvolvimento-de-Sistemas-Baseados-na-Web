@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+
+  background-color: lightblue;
+}
+
+
+.botao{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  background: none;
+  border: none;
+  left: 10px;
+  top: 10px;
+  font-weight: bolder;
+}
+
+.botao:hover{
+  background: none;
+  color: black;
+}
+
+h1 {
+  position: absolute;
+  left: 65px;
+  top: 120px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  font-family: 'Big Shoulders', sans-serif;
+}
+
+h2{
+  font-family: 'Open Sans', serif;
+  position: absolute;
+  font-size: 25px;
+  font-weight: lighter;
+  left: 65px;
+  top: 190px;
+  width: 1000px;
+}
+
+h3{
+  font-family: 'Open Sans', serif;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 65px;
+  top: 280px;
+  width: 950px;
+}
+
+h4{
+  font-family: 'Open Sans', serif;
+  position: absolute;
+  left: 65px;
+  top: 470px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+
+li {
+  position: relative;
+  left: 65px;
+  top: 520px;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.btn{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: absolute;
+  left: 124px;
+  top: 5px;
+  background: none;
+  border: none;
+  font-weight: bolder;
+}
+
+.pag2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  background: blue;
+  border: none;
+  left: 65px;
+  top: 540px;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+}
