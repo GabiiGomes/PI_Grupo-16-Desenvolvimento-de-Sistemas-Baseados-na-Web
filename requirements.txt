@@ -1,1 +1,6 @@
 pip freeze > requirements.txt
+
+Flask==3.0.0
+Flask-CORS==4.0.0
+pymongo==4.5.0
+python-dotenv==1.0.0
