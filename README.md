@@ -28,12 +28,12 @@
 - Flask
 - Flask-CORS
 - MongoDB
+
     
 
 ## Instruções para Execução
-- 
-- 
-
+#### Por ser uma aplicação web, as funcionalidades são intuitivas e ficam à disposição do usuário de maneira simples e objetiva.
+#### Basta acessar o link da página. 
 
 
 ### Integrantes 
