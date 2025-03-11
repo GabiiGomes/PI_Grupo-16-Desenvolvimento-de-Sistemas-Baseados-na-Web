@@ -32,15 +32,24 @@
     </div>
 
     <script>
-        document.getElementById('imcForm').addEventListener('submit', function (e) {
-            e.preventDefault();
-            const weight = parseFloat(document.getElementById('weight').value);
-            const height = parseFloat(document.getElementById('height').value);
-            
-            if (isNaN(weight) || isNaN(height) || height <= 0 || weight <= 0) {
-                document.getElementById('result').innerHTML = '<p class="text-danger">Por favor, insira valores válidos.</p>';
-                return;
-            }
+    document.getElementById('imcForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const weight = parseFloat(document.getElementById('weight').value);
+    const height = parseFloat(document.getElementById('height').value);
+
+    if (isNaN(weight) || isNaN(height) || height <= 0 || weight <= 0) {
+        document.getElementById('result').innerHTML = '<p class="text-danger">Por favor, insira valores válidos.</p>';
+        return;
+    }
+    try {
+        const response = await fetch('http://localhost:5000/api/calculate-imc', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ weight, height })
+        });
+
+        const data = await response.json();    
 
             const imc = (weight / (height * height)).toFixed(2);
             let classification = '';
@@ -59,11 +68,14 @@
                 classification = 'Obesidade grau 3';
             }
 
-            document.getElementById('result').innerHTML = `
-                <p>Seu IMC é: <strong>${imc}</strong></p>
-                <p>Classificação: <strong>${classification}</strong></p>
-            `;
-        });
+           document.getElementById('result').innerHTML = `
+            <p>Seu IMC é: <strong>${data.imc}</strong></p>
+            <p>Classificação: <strong>${data.classification}</strong></p>
+        `;
+    } catch (error) {
+        document.getElementById('result').innerHTML = '<p class="text-danger">Erro ao calcular o IMC. Tente novamente.</p>';
+    }
+});
     </script>
     <img src="tabela.png" alt="Minha Foto">
 
