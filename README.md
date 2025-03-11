@@ -31,8 +31,8 @@
     
 
 ## Instruções para Execução
-- 
-- 
+- Por ser uma aplicação o web, a interação do usuário com a página é intuitiva, simples e objetiva. 
+- Acessando o link, o usuário consegue interagir de acordo com as instruções da página.
 
 
 
